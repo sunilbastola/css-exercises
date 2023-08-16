@@ -1,20 +1,18 @@
-p{
-    background-color: #FF3091;
+.oddd{
+    background-color: #e0639b;
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
-#one{
+#two{
     color: blue;
     font-size: 36px;
 }
 
-.cooler{
-    background-color: #FF3091;
-    font-family: Verdana, DejaVu Sans, sans-serif;
+.font-size-24{
     font-size: 24px;
 }
 
-#two{
+#four{
     background-color: lightgreen;
     font-size: 24px;
     font-weight: bold;
