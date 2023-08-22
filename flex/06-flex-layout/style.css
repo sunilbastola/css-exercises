@@ -5,7 +5,60 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
+/* Added Code Start*/
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  align-content: flex-end;
+  background-color: lightgrey;
+  margin-top: auto;
+  margin-bottom: 0px;
+  
+}
+
+/* .left-links {
+  margin-left: 10px;
+} */
+
+.right-links {
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+li {
+  margin-left: 15px;
+} 
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow : 1;
+}
+
+.buttons button {
+  padding: 10px;
+  /* margin-bottom: 250px; */
+}
+
+/* Added Code End */
 
 img {
   width: 600px;
